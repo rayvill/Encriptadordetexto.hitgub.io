@@ -1,0 +1,146 @@
+*{
+    font-family: "Inter", Quicksand;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    border: solid;
+    border-color: transparent;
+    
+}
+body{
+    background: rgb(39, 121, 143);
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.contenedor{
+background-color:rgb(100, 201, 167);
+border-radius: 9px;
+margin-top: 2rem;
+margin-bottom: 2rem;
+width: 90%;
+height: auto;
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+em{
+    font-size: 40px;
+
+}
+main{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    
+
+}
+.primera{
+
+background: rgba(255, 193, 116, 1);
+border-radius: 9px;
+width: 50%;
+margin: 5px;
+padding: 1%;
+align-items: center;
+}
+.input-texto{
+width: 100%;
+height: auto;
+margin-bottom: 2px;
+font-size: 20px;
+
+}
+h6{
+width:100%;
+height:auto;
+margin-bottom: 5px;
+}
+.botones{
+width:100%;
+height: auto;
+padding: 1%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.encriptar{
+width: 50%;
+height:30px;
+margin: 2px;
+background:rgba(39, 121, 143, 1) ;
+border-radius: 5px;
+font-size: 20px;
+}
+.desencriptar{
+width: 50%;
+height: 30px;
+margin: 2px;
+background:rgba(100, 201, 167, 1) ;
+border-radius: 5px;
+font-size: 20px;
+}
+.mensaje-box{
+
+background: rgba(255, 227, 179, 1);
+border-radius: 9px;
+width: 50%;
+margin: 5px;
+padding: 1%;
+
+}
+.mensaje{
+width: 100%;
+height: auto;
+margin-bottom: 2px;
+background-image: url(imagenes/buscador.png);
+background-size: 90%;
+background-repeat: no-repeat;
+background-position: 30% 20%;
+font-size: 20px;
+}
+.boton-copiar{
+    width: 100%;
+    height: 69px;
+    padding: 5%;
+    display: flex; 
+    justify-content: center;
+    
+}
+.copiar{
+    width: 50%;
+    height:30px;
+    background:rgba(39, 121, 143, 1) ;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 20px;
+    
+}
+footer{
+    width:100%;
+    height: 100%;
+    
+}
+.pie{
+    width: 100%;
+    height:auto;
+    display: flex;
+    background: rgba(255, 193, 116, 1);
+    border-radius: 9px 9px 9px 9px;
+    align-items: center;
+    justify-content:center;
+}
+
+
